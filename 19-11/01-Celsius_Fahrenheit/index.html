@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<div class="container h-100vh">
+    <div class="d-flex justify-content-center align-items-center h-100 flex-column-mobile">
+        <div class="input-wrapper">
+            <label for="temp1">Celsius</label>
+            <input type="number" id="temp1" class="temp1" oninput="changetemp1(event)">
+        </div>
+        <div class="input-wrapper">
+            <label for="temp2">Fahrenheit</label>
+            <input type="number" id="temp2" class="temp2" oninput="changetemp2(event)">
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
